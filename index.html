@@ -5,13 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multimedia / Formularios</title>
 </head>
+
 <body>
+    <h1>Clase 4: Formularios</h1>
+    <p>En esta clase aprenderemos a crear formularios en HTML y cómo manejar la entrada de datos del usuario.</p>
 
-    <h1> Bienvenidos a la Clase 4</h1>
-    <p>lorem ipsum dolor sit amet</p>
-    <p>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem </p>
+    <form action="">
 
-    <footer>Sitio desarrollado por UTN</footer>
+        <h3>input tipo texto</h3>
+        <input type="text" placeholder="Ingrese su nombre" required>
+
+        <h3>input tipo password</h3>
+        <input type="password" placeholder="Ingrese su contraseña" required>
+
+        <h3>input tipo email</h3>
+        <input type="email" placeholder="Ingrese su email" autocomplete="off" required>
+
+        <h3>input tipo number</h3>
+        <input type="number" placeholder="Ingrese su edad">
+
+        <h3>input tipo color</h3>
+        <input type="color" placeholder="Seleccione un color">
+
+        <h3>input tipo date</h3>
+        <input type="date" placeholder="Seleccione una fecha">
+
+        <h3>input tipo range</h3>
+        <input type="range" placeholder="Seleccione un valor" min="0" max="100" step="20">
+
+        <div>
+            <h3>input tipo select</h3>
+            <select>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+        </div>
+        
+        <h3>input tipo radio</h3>
+        <input type="radio" name="animal" id="inputPerro">
+        <label for="inputPerro">Perro</label>
+
+        <input type="radio" name="animal" id="inputGato">
+        <label for="inputGato">Gato</label>
+       
+        <h3>input tipo checkbox</h3>
+        <input type="checkbox" id="programacion">
+        <label for="programacion">Programación</label>
+
+        <input type="checkbox" id="musica">
+        <label for="musica">Música</label>
+
+        <input type="checkbox" id="deporte">
+        <label for="deporte">Deporte</label>
+
+        <h3>input tipo textarea</h3>
+        <textarea placeholder="Ingrese un mensaje" cols="30" rows="5"></textarea>
+
+        <h3>input tipo file</h3>
+        <input type="file" multiple>
+        
+        
+        
+        <h3>Boton enviar</h3>
+        <button>Enviar</button>
+
+    </form>
 </body>
 
 </html>
